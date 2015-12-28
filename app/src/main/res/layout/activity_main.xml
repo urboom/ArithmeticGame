@@ -37,24 +37,10 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/help_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/play_btn"
-            android:layout_centerHorizontal="true"
-            android:layout_margin="5dp"
-            android:background="@drawable/enter_background"
-            android:padding="20dp"
-            android:text="How to Play"
-            android:textColor="#ff333333"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <Button
             android:id="@+id/high_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/help_btn"
+            android:layout_below="@id/play_btn"
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
             android:background="@drawable/enter_background"
@@ -63,6 +49,21 @@
             android:textColor="#ff333333"
             android:textSize="20sp"
             android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:id="@+id/button"
+            android:layout_below="@id/high_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:textColor="#ff333333"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/enter_background"
+            android:padding="20dp" />
+
     </RelativeLayout>
 
 </ScrollView>
