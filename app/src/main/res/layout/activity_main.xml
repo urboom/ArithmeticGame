@@ -23,7 +23,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/play_btn"
+            android:id="@+id/play_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/intro"
@@ -37,10 +37,10 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/high_btn"
+            android:id="@+id/high_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/play_btn"
+            android:layout_below="@id/play_button"
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
             android:background="@drawable/enter_background"
@@ -54,8 +54,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Exit"
-            android:id="@+id/button"
-            android:layout_below="@id/high_btn"
+            android:id="@+id/exit_button"
+            android:layout_below="@id/high_button"
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
             android:textColor="#ff333333"
