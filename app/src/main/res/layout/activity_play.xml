@@ -27,7 +27,7 @@
             android:layout_weight="1"
             android:gravity="center|right"
             android:paddingRight="20dp"
-            android:text="Score: 0"
+            android:text="@string/score_text"
             android:textColor="#ffffffff"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -270,7 +270,7 @@
             android:background="@drawable/enter_background"
             android:gravity="center"
             android:padding="5dp"
-            android:text="Enter"
+            android:text="@string/enter_button"
             android:textColor="#ff333333"
             android:textSize="30sp"
             android:textStyle="bold" />

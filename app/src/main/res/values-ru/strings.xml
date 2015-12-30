@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Арифметическая игра</string>
+    <string name="play_button">Играть</string>
+    <string name="score_button">Рекорды</string>
+    <string name="exit_button">Выход</string>
+    <string name="dialog_title">Хотите покинуть игру?</string>
+    <string name="dialog_yes">Да</string>
+    <string name="dialog_no">Нет</string>
+    <string name="scores_head">РЕКОРДЫ</string>
+    <string name="enter_button">Enter</string>
+    <string name="score_text">Score: 0</string>
+    <string name="level_name">Выберите уровень:</string>
+</resources>
